@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <!-- font awesome font link here -->
+    <script src="https://kit.fontawesome.com/62f7da632f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!----------------------------------------------->
@@ -42,7 +43,53 @@
     </header>
     <!----------------------------------------------->
     <!-- main section here -->
-    <main class="main"></main>
+    <main class="main">
+        <!------------------------------------------->
+        <!-- Explore Hero section here -->
+        <section class="sectionOne">
+            <!--------------------------------------->
+            <!-- Explore Hero Image section here -->
+            <div class="exploreHeroImage">
+                <div class="exploreHeroImageText">
+                    <h1>Explore Your Travel</h1>
+                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                </div>
+                <div class="exploreHeroImageInputs">
+                    <!--Where go -->
+                    <input  placeholder="Where go" class="input" list="Where">
+                    <datalist  id="Where">
+                        <option value="Rajshahi" >
+                        <option value="Sylhet" >
+                        <option value="Cox's Bazar" >
+                        <option value="The Sundarbans" >
+                        <option value="Srimangal" >
+                    </datalist>
+                    <!-- When -->
+                    <input placeholder="When" class="input" list="when"
+
+                    >
+                    <datalist  id="when">
+                        <option value="07 Mar'24 Sunday" >
+                            <option value="07 March'24 Thursday" >
+                            <option value="03 April'24 Monday" >
+                            <option value="01 May'24 Sunday" >
+                            <option value="17 June'24 Friday" >
+                    </datalist>
+                    <!-- Select Type -->
+                    <input placeholder="Select Type" class="input"  list="Type">
+                    <datalist  id="Type">
+                        <option value="5 Star" >
+                        <option value="4 Star" >
+                        <option value="3 Star" >
+                        <option value="1 Star" >
+                        <option value="Resot" >
+                        
+                    </datalist>
+                    <button class="btn" ><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
     <!----------------------------------------------->
     <!-- footer section here -->
     <footer class="footer"></footer>

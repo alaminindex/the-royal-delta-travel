@@ -1,5 +1,5 @@
 .hide{
-    display: none;
+    /* display: none; */
 }
 
 *{
@@ -11,7 +11,7 @@
 /* <!-- nav logo and tittle section here --> */
 .navContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     
 }
@@ -48,4 +48,89 @@
     font-size: 1.125rem;
     font-weight: 400;
 
+}
+
+
+/* <!--------------------------------------------> */
+/* <!-- Explore Hero section here --> */
+.exploreHeroImage{
+    margin: 1rem auto;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/hero.png");
+}
+
+
+/* <!--------------------------------------------> */
+/* <!-- Explore Hero Text section here --> */
+
+.exploreHeroImage{
+    text-align: center;
+}
+.exploreHeroImageText{
+    text-align: center;
+    padding-top: 106px;
+}
+
+.exploreHeroImageText>h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.exploreHeroImageText>p{
+    margin: 24px auto 48px auto;
+    width: 676px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; 
+}
+
+/* <!--------------------------------------------> */
+/* <!-- Explore Hero Inputs section here --> */
+.exploreHeroImageInputs{
+    padding-top: 106px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.exploreHeroImageInputs>input{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    /*placeholder texts */
+    color: rgba(19, 19, 24, 0.50);
+    padding:0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    
+  
+}
+
+.btn{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.btn>i{
+    margin-right: 5px;
 }
