@@ -1,0 +1,30 @@
+@media screen and (max-width:600px) {
+    /* <!--------------------------------------------> */
+/* <!-- nav logo and tittle section here --> */
+.navContainer{
+    flex-direction: column;
+}
+
+
+.navTitle>h1{
+    font-size: 1.75rem;
+    font-weight: 700;
+    
+}
+
+/* <!--------------------------------------------> */
+/* <!-- nav Link section here --> */
+.ul{
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.ul>li>a{
+    text-decoration: none;
+    color:  #424247;
+    font-size: 1rem;
+    font-weight: 400;
+    
+
+}
+}
