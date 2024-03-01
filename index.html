@@ -1,97 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Royal Delta Travel</title>
     <!-- favicon image link here -->
-    <link rel="shortcut icon" href="Images/favicon/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="Images/favicon/favicon.png"
+      type="image/x-icon"
+    />
     <!-- main style.css file link here -->
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
     <!-- main media.css file link here -->
-    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/media.css" />
     <!-- google font link here -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome font link here -->
-    <script src="https://kit.fontawesome.com/62f7da632f.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/62f7da632f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!----------------------------------------------->
     <!-- header section here -->
     <header class="header hide">
-        <nav class="navContainer">
-            <!-- nav logo and tittle section here -->
-            <div class="navLogoTitle">
-                <div class="navLogo"><img src="Images/Group 40071 (2).png" alt="">
-                </div>
-                <div class="navTitle"><h1>The Royal Delta <span class="orangeColor">Travel</span></h1>
-                </div>
-            </div>
-            <!-- nav Link section here -->
-            <div class="navLink">
-                <ul class="ul">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navContainer">
+        <!-- nav logo and tittle section here -->
+        <div class="navLogoTitle">
+          <div class="navLogo">
+            <img src="Images/Group 40071 (2).png" alt="" />
+          </div>
+          <div class="navTitle">
+            <h1>The Royal Delta <span class="orangeColor">Travel</span></h1>
+          </div>
+        </div>
+        <!-- nav Link section here -->
+        <div class="navLink">
+          <ul class="ul">
+            <li><a href="">Home</a></li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <!----------------------------------------------->
     <!-- main section here -->
     <main class="main">
-        <!------------------------------------------->
-        <!-- Explore Hero section here -->
-        <section class="sectionOne">
-            <!--------------------------------------->
-            <!-- Explore Hero Image section here -->
-            <div class="exploreHeroImage">
-                <div class="exploreHeroImageText">
-                    <h1>Explore Your Travel</h1>
-                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-                </div>
-                <div class="exploreHeroImageInputs">
-                    <!--Where go -->
-                    <input  placeholder="Where go" class="input" list="Where">
-                    <datalist  id="Where">
-                        <option value="Rajshahi" >
-                        <option value="Sylhet" >
-                        <option value="Cox's Bazar" >
-                        <option value="The Sundarbans" >
-                        <option value="Srimangal" >
-                    </datalist>
-                    <!-- When -->
-                    <input placeholder="When" class="input" list="when"
+      <!------------------------------------------->
+      <!-- Explore Hero section here -->
+      <section class="sectionOne">
+        <!--------------------------------------->
+        <!-- Explore Hero Image section here -->
+        <div class="exploreHeroImage">
+          <div class="exploreHeroImageText">
+            <h1>Explore Your Travel</h1>
+            <p>
+              Dolor sit amet consectetur. Nullam suspendisse vitae ultricies
+              dolor adipiscing. In et odio enim ac quis sapien urna eu
+              phasellus.
+            </p>
+          </div>
+          <div class="exploreHeroImageInputs">
+            <!--Where go -->
+            <input placeholder="Where go" class="input" list="Where" />
+            <datalist id="Where">
+              <option value="Rajshahi"></option>
+              <option value="Sylhet"></option>
+              <option value="Cox's Bazar"></option>
+              <option value="The Sundarbans"></option>
+              <option value="Srimangal"></option>
+            </datalist>
 
-                    >
-                    <datalist  id="when">
-                        <option value="07 Mar'24 Sunday" >
-                            <option value="07 March'24 Thursday" >
-                            <option value="03 April'24 Monday" >
-                            <option value="01 May'24 Sunday" >
-                            <option value="17 June'24 Friday" >
-                    </datalist>
-                    <!-- Select Type -->
-                    <input placeholder="Select Type" class="input"  list="Type">
-                    <datalist  id="Type">
-                        <option value="5 Star" >
-                        <option value="4 Star" >
-                        <option value="3 Star" >
-                        <option value="1 Star" >
-                        <option value="Resot" >
-                        
-                    </datalist>
-                    <button class="btn" ><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
-                </div>
+            <!-- When -->
+            <input placeholder="When" class="input" list="when" />
+            <datalist id="when">
+              <option value="07 Mar'24 Sunday"></option>
+              <option value="07 March'24 Thursday"></option>
+              <option value="03 April'24 Monday"></option>
+              <option value="01 May'24 Sunday"></option>
+              <option value="17 June'24 Friday"></option>
+            </datalist>
+
+            <!-- Select Type -->
+            <input placeholder="Select Type" class="input" list="Type" />
+            <datalist id="Type">
+              <option value="5 Star"></option>
+              <option value="4 Star"></option>
+              <option value="3 Star"></option>
+              <option value="1 Star"></option>
+              <option value="Resot"></option>
+            </datalist>
+
+            <button class="btn">
+              <i class="fa-solid fa-magnifying-glass"></i> Find Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!------------------------------------------->
+      <!-- Popular Tours section here -->
+      <section class="sectionTwo">
+        <!--------------------------------------->
+        <!-- Popular Tours Container section here -->
+        <div class="popularTourContainer">
+          <div class="popularTourTexts">
+            <div class="popularTourText">
+              <h1>Our Popular Tours</h1>
+              <p>
+                Dolor sit amet consectetur. Diam volutpat neque habitasse
+                pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
+              </p>
+              <ul class="ulTwo">
+                    <li >
+                    Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+                    nullam odio neque diam. Sociis erat at .
+                    </li>
+                    <li>
+                    Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                    platea porta lacus. Lectus suspendisse nullam.
+                    </li>
+                    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+              </ul>
+              <p>Amet consectetur. Vulputate commodo felis molestie risus 
+                ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
             </div>
-        </section>
+            <button class="btn">Read More</button>
+          </div>
+          <div class="popularTourText">
+            <img src="Images/herotwo.png" alt="m" />
+          </div>
+        </div>
+      </section>
     </main>
     <!----------------------------------------------->
     <!-- footer section here -->
     <footer class="footer"></footer>
-</body>
+  </body>
 </html>
