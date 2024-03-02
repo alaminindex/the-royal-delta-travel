@@ -248,4 +248,21 @@
     flex-shrink: 0;
     
       }
+
+      /* <!----------------------------------------------->
+    <!-- footer section here --> */
+
+
+.footerDes>p{
+  width: 287px;
+  font-size: 14px;
+  
+}
+
+
+
+.hrFooter{
+  width: 335px;
+}
+
 }

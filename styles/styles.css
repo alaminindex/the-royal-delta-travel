@@ -450,3 +450,55 @@
 }
 /* .newslatterImg {
 } */
+
+/* <!----------------------------------------------->
+    <!-- footer section here --> */
+.sectionSix{
+  margin: 5rem auto 0rem auto;
+  height: 502px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+}
+.footerContainer{
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.footerDes>p{
+  width: 769px;
+  color: #5A5A5D;
+  text-align: center;
+  margin: 15px auto 33px auto;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 26px; 
+}
+
+.footerIcon{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.footerIcon>i{
+  margin: 32px 0 50px 0;
+  
+}
+
+
+.hrFooter{
+  width: 872px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.10);
+  margin: 0px auto 50px auto;
+}
+
+
+.copyrights{
+  text-align: center;
+}
