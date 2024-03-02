@@ -7,6 +7,11 @@
   padding: 0rem;
   font-family: "Mulish", sans-serif;
 }
+
+.header{
+  padding: 2rem 0;
+}
+
 /* <!--------------------------------------------> */
 /* <!-- nav logo and tittle section here --> */
 .navContainer {
