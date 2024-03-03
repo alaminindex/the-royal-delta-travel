@@ -373,8 +373,6 @@
 /* <!------------------------------------------->
       <!-- email inputs section here --> */
 
-
-
 .sectionFive {
   display: flex;
   margin: 3rem auto;
@@ -468,14 +466,12 @@
   background: #ff5400;
   text-align: center;
   align-items: center;
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   translate: 342px 252px;
-
 }
 .imgTravel > h3 {
-  
   color: #fff;
   font-size: 32px;
   font-weight: 800;
@@ -532,4 +528,16 @@
 
 .copyrights {
   text-align: center;
+}
+
+.sponsorsImg {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.sponsorsImgM > img {
+  width: 150px;
+  margin: 1px 50px;
+  filter: grayscale(100%);
 }
